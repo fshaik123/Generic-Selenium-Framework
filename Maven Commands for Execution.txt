@@ -1,0 +1,6 @@
+mvn test -P Regression
+mvn test -P Smoke
+mvn test -P Parallel
+mvn test -P Integration
+mvn test -D browser=Edge
+mvn test -D browser=Edge -P Parallel

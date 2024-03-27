@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="org.company.testComponents.Listeners"/>
+    </listeners>
+    <test name="Automation Test">
+        <classes>
+            <class name="org.company.tests.StandaloneTest"/>
+            <class name="org.company.tests.ErrorValidationsTest"/>
+        </classes>
+    </test>
+</suite>
